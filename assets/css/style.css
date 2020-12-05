@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #555;
+  min-height: 64px;
+  color: white;
+}
+
+.heading-logo,
+.nav,
+.contact-link {
+  margin: 16px;
+}
+
+.heading-logo {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 1.5em;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+ .nav-item + .nav-item {
+   padding-left: 10px;
+} 
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.contact-link {
+  padding: 7px 14px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
